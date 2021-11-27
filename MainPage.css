@@ -103,3 +103,22 @@ padding-top: 20px;
     height: 100px;
     width: 95%;
 }
+
+.DoubleImage {
+    display: inline-flex;
+    
+}
+
+.FourthTier{
+    border: 2px solid;
+    border-color: black;
+    background-color: white;
+    width: 95%;
+}
+
+.BtHoverImage {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+}
+
