@@ -1,0 +1,43 @@
+body {
+  background-color: lightgrey;
+}
+
+/*Lista da navbar/conteudo*/
+ul li {
+  display: inline;
+  margin: 10px 20px;
+}
+
+.NavBar {
+  background-color: #a1a169;
+  width: 100%;
+  height: fit-content;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/*Lista*/
+.NavBar ul {
+  font-family: "typoldbook_500", Tahoma, sans-serif;
+  font-size: 10px;
+}
+
+.secondNavbar {
+  padding-top: 0%;
+  background-color: grey;
+  color: white;
+}
+
+.secondNavbar img {
+  width: 15%;
+  height: 20%;
+}
+
+.navBarOrgazicional {
+  padding-top: 0%;
+  background-color: grey;
+  color: white;
+}
+
+/*# sourceMappingURL=output.css.map */
