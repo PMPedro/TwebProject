@@ -1,6 +1,6 @@
 $bgcolor: lightgrey;
 $textColor: white;
-
+$secondbgcolor: white ;
 
 body{
     background-color: $bgcolor;
@@ -39,7 +39,55 @@ ul li{
 
 .navBarOrgazicional {
     padding-top: 0%;
-    background-color: grey;
+    background-color: $secondbgcolor;
     color: $textColor;
+    width: 100%;
+ 
+    padding: 10px 0;
+    
 }
+
+.ThirdNavBar{
+    top: 0;
+    height: 20px;
+    background-color: $secondbgcolor;
+}
+
+.SectionofImages img{
+    height: 20%;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.firstRowOfImages{
+    display:inline;
+    
+}
+
+
+.firstRowOfImages {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .firstColum{
+    border-radius: 3px black;
+    border-style: solid;
+    width: 25%;
+
+  }
+  /* Clear floats after image containers */
+  .firstColum::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+
+  
+ .tagTitle{
+      color: #00ff00;
+  }
 
