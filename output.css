@@ -39,47 +39,83 @@ ul li {
   background-color: white;
   color: white;
   width: 100%;
-  padding: 10px 0;
+  height: fit-content;
+  border-top: 2px solid #8f7608;
+  border-bottom: 2px solid #8f7608;
+  text-decoration: none;
+  margin: auto;
 }
 
 .ThirdNavBar {
   top: 0;
-  height: 20px;
+  height: fit-content;
   background-color: white;
 }
 
-.SectionofImages img {
+.Images {
+  margin: 0;
+  position: absolute;
+  padding-top: 3%;
+}
+
+.FirstRow {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2%;
+}
+
+.firstcolumn {
+  width: 20%;
   height: 20%;
-  width: 90%;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-.firstRowOfImages {
-  display: inline;
-}
-
-.firstRowOfImages {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-.firstColum {
-  border-radius: 3px black;
+  min-width: 100px;
+  border: 3px black;
   border-style: solid;
-  width: 25%;
+  text-align: center;
+  background-color: white;
 }
 
-/* Clear floats after image containers */
-.firstColum::after {
-  content: "";
-  clear: both;
-  display: table;
+.firstcolumn img {
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 5%;
 }
 
-.tagTitle {
-  color: #00ff00;
+.firstcolumn h2, small {
+  color: #8f7608;
+}
+
+.navigationBar {
+  height: 50px;
+  width: fit-content;
+  background-color: white;
+}
+
+.navigationBar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border: 1px black;
+  border-style: solid;
+}
+
+.bottomBar {
+  margin: auto;
+  padding-top: 3%;
+}
+
+.leftBottomStuff {
+  margin: auto;
+  width: 50%;
+  float: left;
+}
+
+.rightBottomStuff {
+  margin: auto;
+  width: 50%;
+  float: right;
 }
 
 /*# sourceMappingURL=output.css.map */
