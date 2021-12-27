@@ -114,17 +114,30 @@ ul li{
     margin: auto;
     padding-top: 3%;
 }
-
-
+.bottomStuff{
+    padding-top: 3%;
+}
 
 .leftBottomStuff{
-margin: auto;
+    background-color: $secondbgcolor;
     width: 50%;
     float: left;
 }
 
 .rightBottomStuff {
-    margin: auto;
+    background-color: $secondbgcolor;
     width: 50%;
     float: right;
 }
+
+.leftLeftBotomStuff{
+    float: left;
+    width: 50%;
+}
+
+.leftRightBottomStuff{
+    float: left;
+    width: 50%;
+}
+
+
