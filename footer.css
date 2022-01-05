@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    font-family: "typoldbook_500",Tahoma,sans-serif;
+    font-size: 13px;
+    background-color: #beaf87;
+}
+
+.FooterContent {
+    background-color: #414042;
+}
+
+.FooterContent1 {
+    color: white;
+    background-image: url(img/logo-seal-clipped.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    margin-right: 350px;
+    margin-left: 350px;
+}
+
+
+
+.Recursos1 {
+    font-family: 'Helvetica Neue',sans-serif;
+    margin-top: 16px 0;
+    color: #999;
+}
+
+.Recursos2 li {
+    display: inline;
+    margin-inline-start: 1em;
+    margin-inline-end: 1em;
+    color: #fff;
+    font: 14px/21px "oakesregular",Arial;
+}
+
+.Sobre1 {
+    font-family: 'Helvetica Neue',sans-serif;
+    color: #999;
+}
+
+.Sobre2 li {
+    display: inline;
+    margin-inline-start: 1em;
+    margin-inline-end: 1em;
+    color: #fff;
+    font: 14px/21px "oakesregular",Arial;
+}
+
+.Logo {
+    width: 263px;
+    height: 160px;
+    cursor: pointer;
+}
+
+.FooterDiv {
+    height: 50px;
+}
+
+.LivroReclamacoes{
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    float: right;
+    clear: none; 
+}
+
+.FooterDiv2 {
+    height: 50px;
+}
+
+.FooterFinal1 {
+    font-size: 85%;
+    line-height: 1.6;
+    margin: 8px 0 16px;
+}
+
+.FooterFinal2 {
+    font-size: 85%;
+    line-height: 1.6;
+    margin: 8px 0 16px;
+}
+
+.FooterBottom1 {
+    height: 60px;
+}
+
+.FooterHelp {
+    text-align: left;
+    color: #414042;
+    margin-top: 30px;
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.FooterHelp li a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0,8;
+}
+
+.FooterHelp li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.FooterSocials {
+    text-align: right;
+    padding-bottom: 25px;
+    color: rgb(0, 0, 0);
+    float: right;
+    clear: none; 
+}
+
+.FooterSocials a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid rgb(0, 0, 0);
+    width: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0,75;
+}
+
+.FooterSocials li {  
+    padding: 0;
+}
