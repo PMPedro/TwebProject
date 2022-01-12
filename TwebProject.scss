@@ -18,7 +18,7 @@ ul li{
     height: fit-content;  
     position: fixed; 
     top: 0; 
-    width: 100%; 
+     
 }
 /*Lista*/
 .NavBar ul {
@@ -27,7 +27,7 @@ ul li{
 }
 
 .secondNavbar {
-    padding-top: 0%;
+    top: 0;
     background-color: grey;
     color: $textColor;
    
@@ -38,20 +38,32 @@ ul li{
     height: 20%;
 }
 
+
+.ThirdNavBar select {
+    border: none;
+    background-color: white;
+}
+
+.navBarOrgazicional select {
+    border: none;
+    background-color: white;
+    color: $h2color;
+}
+
 .navBarOrgazicional {
-    padding-top: 0%;
+    top: 0%;
     background-color: $secondbgcolor;
     color: $textColor;
     width: 100%;
     height: fit-content;
     border-top: 2px solid $h2color;
     border-bottom: 2px solid $h2color;
-    text-decoration: none;
-    margin: auto;
+  
+    
 }
 
 .ThirdNavBar{
-    top: 0;
+    top: 0px;
     height: fit-content;
     background-color: $secondbgcolor;
 }
@@ -78,8 +90,6 @@ ul li{
     border-style: solid;
     text-align: center;
     background-color: $secondbgcolor;
-  
-  
 }
 
 .firstcolumn img {

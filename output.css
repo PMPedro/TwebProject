@@ -14,7 +14,6 @@ ul li {
   height: fit-content;
   position: fixed;
   top: 0;
-  width: 100%;
 }
 
 /*Lista*/
@@ -24,7 +23,7 @@ ul li {
 }
 
 .secondNavbar {
-  padding-top: 0%;
+  top: 0;
   background-color: grey;
   color: white;
 }
@@ -34,8 +33,19 @@ ul li {
   height: 20%;
 }
 
+.ThirdNavBar select {
+  border: none;
+  background-color: white;
+}
+
+.navBarOrgazicional select {
+  border: none;
+  background-color: white;
+  color: #8f7608;
+}
+
 .navBarOrgazicional {
-  padding-top: 0%;
+  top: 0%;
   background-color: white;
   color: white;
   width: 100%;
@@ -43,11 +53,10 @@ ul li {
   border-top: 2px solid #8f7608;
   border-bottom: 2px solid #8f7608;
   text-decoration: none;
-  margin: auto;
 }
 
 .ThirdNavBar {
-  top: 0;
+  top: 0px;
   height: fit-content;
   background-color: white;
 }
