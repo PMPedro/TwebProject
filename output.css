@@ -33,6 +33,11 @@ ul li {
   height: 20%;
 }
 
+.ThirdNavBar {
+  bottom: 200000px;
+  background-color: white;
+}
+
 .ThirdNavBar select {
   border: none;
   background-color: white;
@@ -52,12 +57,6 @@ ul li {
   height: fit-content;
   border-top: 2px solid #8f7608;
   border-bottom: 2px solid #8f7608;
-}
-
-.ThirdNavBar {
-  top: 0px;
-  height: fit-content;
-  background-color: white;
 }
 
 .Images {
