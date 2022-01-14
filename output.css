@@ -112,29 +112,97 @@ ul li {
 }
 
 .bottomStuff {
-  padding-top: 3%;
+  padding-top: 1%;
+  background-color: white;
+  font-family: "typoldbook_500",Tahoma,sans-serif;
 }
 
 .leftBottomStuff {
   background-color: white;
   width: 50%;
   float: left;
+  font-size: 21px;
 }
 
 .rightBottomStuff {
   background-color: white;
   width: 50%;
   float: right;
+  font-size: 21px;
 }
 
-.leftLeftBotomStuff {
+.leftLeftBottomStuff {
   float: left;
-  width: 50%;
+  width: 40%;
+  font-size: 13px;
+  padding-left: 105px
+}
+
+.leftLeftBottomStuff li:hover {
+  color: #beaf87;
+}
+
+.leftLeftBottomStuff li{
+  display: inline-block;
+  margin-top: 1px;
+  cursor: pointer;
 }
 
 .leftRightBottomStuff {
+  float: right;
+  width: 40%;
+  font-size: 13px;
+}
+
+.leftRightBottomStuff li:hover {
+  color: #beaf87;
+}
+
+.leftRightBottomStuff li{
+  display: inline-block;
+  margin-top: 1px;
+  cursor: pointer;
+}
+
+.leftTopBottomStuff {
+  margin-left: 190px;
+}
+
+.rightLeftBottomStuff {
   float: left;
-  width: 50%;
+  width: 40%;
+  font-size: 13px;
+}
+
+.rightLeftBottomStuff li:hover {
+  color: #beaf87;
+}
+
+.rightLeftBottomStuff li{
+  display: inline-block;
+  margin-top: 1px;
+  cursor: pointer;
+}
+
+.rightRightBottomStuff {
+  float: right;
+  width: 40%;
+  font-size: 13px;
+  padding-right: 67px
+}
+
+.rightRightBottomStuff li:hover {
+  color: #beaf87;
+}
+
+.rightRightBottomStuff li{
+  display: inline-block;
+  margin-top: 1px;
+  cursor: pointer;
+}
+
+.rightTopBottomStuff {
+  margin-left: 190px;
 }
 
 .ImagesBottom {
